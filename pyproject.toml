@@ -7,7 +7,7 @@ name = "tradetrack"
 version = "1.0.0"
 description = "A CLI tool to track product inventory and transactions using Typer and SQLAlchemy."
 authors = [
-    { name="Your Name", email="your.email@example.com" }
+    { name="Samuel James", email="svjamesblog@gmail.com" }
 ]
 readme = "README.md"
 requires-python = ">=3.8"
