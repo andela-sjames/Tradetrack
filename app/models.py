@@ -1,7 +1,7 @@
 # Our SQLAlchemy models
 
 from sqlalchemy import Column, Integer, String, Float, ForeignKey, DateTime, Enum
-from sqlalchemy.ext.declarative import declarative_base
+from sqlalchemy.orm import declarative_base
 from sqlalchemy.orm import relationship
 from datetime import datetime
 import enum
