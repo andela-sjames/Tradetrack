@@ -40,7 +40,7 @@ Build a **command-line notes manager** that:
 ### 📥 CSV Import
 - Import a CSV file with `title`, `content`, and `tag`.
 - File path should be accepted via CLI.
-- Notes should be **randomly assigned** to folders.
+- Notes should be **randomly assigned** to folders if not specified.
 
 ---
 
