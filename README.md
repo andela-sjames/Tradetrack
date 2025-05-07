@@ -70,6 +70,7 @@ tradetrack/
 ├── setup.py / pyproject.toml
 ├── Makefile
 ├── README.md
+├── requirements.txt
 ```
 
 ---
