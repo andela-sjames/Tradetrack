@@ -1,0 +1,24 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "tradetrack"
+version = "1.0.1"
+description = "A CLI tool to track product inventory and transactions using Typer and SQLAlchemy."
+authors = [
+    { name="Samuel James", email="svjamesblog@gmail.com" }
+]
+readme = "README.md"
+requires-python = ">=3.8"
+license = { text = "MIT" }
+
+dependencies = [
+    "typer[all]",
+    "sqlalchemy",
+    "pytest",
+    "pytest-cov"
+]
+
+[project.scripts]
+tradetrack = "app.cli:app"
